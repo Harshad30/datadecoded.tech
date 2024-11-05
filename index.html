@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Harshad's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Harshad Hatte's Data Science Portfolio">
+  <title>DataDecoded - Harshad Hatte's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Harshad</h1>
-        <p>Data Science Student at NJIT</p>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a passionate Data Science student with interests in machine learning, data analysis, and artificial intelligence.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <h3>Project 1: EmpathyBot</h3>
-                <p>A chatbot designed to understand and respond empathetically to user queries.</p>
-                <a href="https://github.com/username/empathybot">View on GitHub</a>
-            </li>
-            <li>
-                <h3>Project 2: Big Data Classification Analysis</h3>
-                <p>A project focused on classifying large datasets using machine learning techniques.</p>
-                <a href="https://github.com/username/big-data-classification">View on GitHub</a>
-            </li>
-        </ul>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>R</li>
-            <li>SQL</li>
-            <li>Machine Learning</li>
-            <li>Data Visualization</li>
-        </ul>
-    </section>
-    <footer>
-        <p>Contact: <a href="mailto:your_email@example.com">your_email@example.com</a></p>
-    </footer>
+
+  <!-- Header -->
+  <header id="home">
+    <h1>Harshad Hatte</h1>
+    <p>Data Scientist & Developer</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Harshad, a Data Science graduate passionate about transforming data into actionable insights and building solutions that make an impact.</p>
+    <p>Skills: Python, SQL, Machine Learning, Data Visualization, AWS</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <img src="images/project1.jpg" alt="Project 1">
+      <h3>EmpathyBot: AI Mental Health Chatbot</h3>
+      <p>A chatbot providing mental health support through AI-driven responses.</p>
+      <a href="https://github.com/yourusername/EmpathyBot" target="_blank">GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <img src="images/project2.jpg" alt="Project 2">
+      <h3>Image Generation with GANs</h3>
+      <p>Generating images using a GAN model trained on CIFAR-10 dataset.</p>
+      <a href="https://github.com/yourusername/Image-GAN" target="_blank">GitHub</a>
+    </div>
+
+    <!-- Add more project cards as needed -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your_form_id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/harshad-hatte" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/harshad-hatte" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
 </body>
 </html>
-
-
-
